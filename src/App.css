@@ -14,14 +14,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  min-height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+}
+
+.App-foot {
+  width: 100%;               /* span full width */
+  bottom: 0;                 /* align to bottom */
+  left: 0;                   /* start from left edge */
+  text-align: center;        /* center content horizontally */
+  background-color: #ffffff; /* optional: match header or contrast */
+  color: rgb(0, 0, 0);              /* text color */
+  padding-top: 100px;           /* some vertical padding */
 }
 
 .App-link {
@@ -35,4 +46,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.playfair {
+  font-family: 'Playfair Display';
+  font-weight: 750;
+  font-style: bold;
+}
+.red-playfair {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  color: #000000;
+  font-size: 1em; /* Adjust the size as needed */
+}
+.smaller-text {
+  font-weight: 100;
+  font-size: 0.5; /* Adjust the size as needed */
+}
+
+
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  height: 20;
+}
+
+.content {
+  width: 300;
+  text-align: left;
+  background: #ffffff;
+  color: #000000;
+  padding: 1rem;
+  border-radius: 8px;
 }
