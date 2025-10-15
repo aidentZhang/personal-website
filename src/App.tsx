@@ -17,13 +17,13 @@ function App() {
         <p>
           this website is overengineered
           <br /> <br />
-          waf → cloudfront → api gateway → lambda → dynamodb <br />
+          cloudfront → api gateway → lambda → dynamodb <br />
           <p>↳s3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>     
           
         </p>
         <div className="wrapper">
           <div className="content">
-            <p>- DDOS protection <br />
+            <p>
           - Serveless Design <br />
           - Fast access anywhere<br />
           - API Gateway authentication <br />
@@ -31,10 +31,10 @@ function App() {
           - No exposed API keys <br /></p>
           </div>
         </div>
-        <p>WAF is totally uncessary but is used for security, protecting from attacks like SQL injections. 
+        <p>
           <br /> Cloudfront serves the built react code from an S3 bucket. The code then calls an API gateway<br />
           to a Lambda function. The Lambda function fetches my list of projects from dynamodb and react<br />
-          displays the name, description, and link dynamically. The entire thing runs on AWS for very little.
+          displays the name, description, and link dynamically. The entire thing runs on AWS for free.
         </p>
       </section>
         <p>
