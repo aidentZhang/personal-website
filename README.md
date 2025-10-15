@@ -1,9 +1,7 @@
 
 <img width="2307" height="333" alt="image" src="https://github.com/user-attachments/assets/d341d0b9-1bb2-4b98-b97f-10bd63a11422" />
 
-
-
-
+This website is extremely overengineered for a personal website, but it serves as a good introduction to the AWS tech stack. Cloudfront serves static React files, which calls an API Gateway, starting a lambda function that retrieves project data from dynamoDB. The projects are then displayed dynamically on the website. You can visit it at aidenzhang.dev or www.aidenzhang.dev.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
